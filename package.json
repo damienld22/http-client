@@ -1,0 +1,21 @@
+{
+  "name": "http-client",
+  "version": "1.0.0",
+  "description": "Small HTTP client in CLI",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "node --watch -r ts-node/register src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=20.6.0"
+  },
+  "author": "Damien Le Dantec <damien-le-dantec@hotmail.fr>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}
