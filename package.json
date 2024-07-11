@@ -15,7 +15,13 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.14.10",
+    "@types/prettyjson": "^0.0.33",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^5.1.2",
+    "inquirer-interactive-list-prompt": "^1.0.4",
+    "prettyjson": "^1.2.5"
   }
 }
